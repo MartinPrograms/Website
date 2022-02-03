@@ -10,55 +10,54 @@ body{
     background-color: #372b5a;
 }
 
+p{
+    font-family: nos;
+    text-align: center;
+    font-size: 500%;
+    color: #AAAAAA;
+    text-shadow: 2px 2px 4px black;
+    position: relative;
+    transition: all 500ms cubic-bezier(.16,.66,.27,.99);
+    bottom: 0px;
+}
+p:hover{
+    color: white;
+    text-shadow: 4px 4px 8px black;
+    position: relative;
+    bottom: 10px;
+}
+
 h1{
     padding: 10px;
     color: #AAAAAA;
     font-family: lmee;
     vertical-align: middle;
-    font-size: 450%;
-    text-shadow: 2px 2px 4px black;
-    position: relative;
-    bottom: 0px;
-    text-decoration: none;
-    transition: all 500ms cubic-bezier(.16,.66,.27,.99);}
-h2{
-    padding: 10px;
-    color: #AAAAAA;
-    font-family: lmee;
-    vertical-align: middle;
-    font-size: 350%;
+    font-size: 250%;
     text-shadow: 2px 2px 4px black;
     position: relative;
     bottom: 0px;
     text-decoration: none;
     transition: all 500ms cubic-bezier(.16,.66,.27,.99);
-    
 }
-p{
+h1:hover{
+    color: white;
+    text-shadow: 4px 4px 8px black;
+    position: relative;
+    bottom: 10px;
+}
+h2{
     padding: 10px;
-    color:#AAAAAA;
-    font-family: nos;
-    font-size: 800%;
+    color: #AAAAAA;
+    font-family: lmee;
+    vertical-align: middle;
+    font-size: 150%;
     text-shadow: 2px 2px 4px black;
     position: relative;
     bottom: 0px;
     text-decoration: none;
-    transition: all 500ms cubic-bezier(.16,.66,.27,.99);    
-}
-h1:hover{
-    
-    color: white;
-    text-shadow: 4px 4px 8px black;
-    position: relative;
-    bottom: 10px;
+    transition: all 500ms cubic-bezier(.16,.66,.27,.99);
 }
 h2:hover{
-    color: white;
-    text-shadow: 4px 4px 8px black;
-    position: relative;
-    bottom: 10px;
-}
-p:hover{
     color: white;
     text-shadow: 4px 4px 8px black;
     position: relative;
