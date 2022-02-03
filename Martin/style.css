@@ -13,7 +13,7 @@ body{
 p{
     font-family: nos;
     text-align: center;
-    font-size: 500%;
+    font-size: 300%;
     color: #AAAAAA;
     text-shadow: 2px 2px 4px black;
     position: relative;
@@ -32,7 +32,7 @@ h1{
     color: #AAAAAA;
     font-family: lmee;
     vertical-align: middle;
-    font-size: 250%;
+    font-size: 150%;
     text-shadow: 2px 2px 4px black;
     position: relative;
     bottom: 0px;
@@ -50,7 +50,7 @@ h2{
     color: #AAAAAA;
     font-family: lmee;
     vertical-align: middle;
-    font-size: 150%;
+    font-size: 100%;
     text-shadow: 2px 2px 4px black;
     position: relative;
     bottom: 0px;
