@@ -8,10 +8,6 @@
 }
 body{
     background-color: #125903;
-    transition: all 500ms cubic-bezier(.16,.66,.27,.99);}
-}
-body:hover{
-    background-color: #372b5a;
 }
 
 div {
