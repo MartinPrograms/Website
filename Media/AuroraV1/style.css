@@ -107,3 +107,41 @@ h4:hover{
     position: relative;
     bottom: 10px;
 }
+
+h5{
+    padding: 10px;
+    color: #AAAAAA;
+    font-family: lmee;
+    vertical-align: middle;
+    font-size: 90%;
+    text-shadow: 2px 2px 4px black;
+    position: relative;
+    bottom: 0px;
+    text-decoration: none;
+    transition: all 500ms cubic-bezier(.16,.66,.27,.99);
+}
+h5:hover{
+    color: white;
+    text-shadow: 4px 4px 8px black;
+    position: relative;
+    bottom: 10px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #15131d; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4b3391; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #231d35; 
+  }
