@@ -7,9 +7,21 @@
     font-family: lmee;
 }
 body{
-    background-color: #372b5a;
+    background: linear-gradient(-45deg, #372b5a, #2e092e, #5e0219, #0f0018);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
-
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
 div {
   width: 320px;
   padding: 10px;
@@ -22,7 +34,7 @@ h1{
     color: #AAAAAA;
     font-family: lmee;
     vertical-align: middle;
-    font-size: 150%;
+    font-size: 220%;
     text-shadow: 2px 2px 4px black;
     position: relative;
     bottom: 0px;
