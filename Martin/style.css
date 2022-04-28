@@ -6,8 +6,12 @@
     src: url(fonts/IBMPlexMono-Bold.ttf);
     font-family: lmee;
 }
+@font-face {
+    font-family: ors;
+    src: url(fonts/DAGGERSQUARE.otf);
+}
 body{
-    background: linear-gradient(-45deg, #372b5a, #2e092e, #5e0219, #0f0018);
+    background: linear-gradient(-45deg, #00FF00, #00FF00, #00FF00, #00FF00);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
@@ -23,18 +27,16 @@ body{
     }
 }
 p{
-    font-family: nos;
+    font-family: ors;
     text-align: center;
     font-size: 300%;
     color: #AAAAAA;
-    text-shadow: 2px 2px 4px black;
     position: relative;
     transition: all 500ms cubic-bezier(.16,.66,.27,.99);
     bottom: 0px;
 }
 p:hover{
     color: white;
-    text-shadow: 0px 0px 18px rgba(255, 255, 255, 0.63);
     position: relative;
     bottom: 10px;
 }
